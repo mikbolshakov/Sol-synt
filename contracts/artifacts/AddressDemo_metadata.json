@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newAddr",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddressDemo.sol": "AddressDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressDemo.sol": {
+			"keccak256": "0x416fb764fbf6309982286a344cbfa4506fc764ea107af8a39833a59a60cd8716",
+			"urls": [
+				"bzz-raw://706308166927b8234618237adc0b66242d92fc8ae9e787f65d4dd267c08317a7",
+				"dweb:/ipfs/QmUd7oeyFTi5mB6fPXMaJY98tcsgf3H8dMkg3qRs2a2F4Y"
+			]
+		}
+	},
+	"version": 1
+}

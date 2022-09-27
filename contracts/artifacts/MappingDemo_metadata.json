@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addrMap",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MappingDemo.sol": "MappingDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MappingDemo.sol": {
+			"keccak256": "0x2e6e0d1a7bdba3a022602d8f5213496ef9e36c910bdeefe9c2457ac934096b91",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://582814d670d901986ab2e25684eb4932cf67653acc60e369fb3f41def0ddf981",
+				"dweb:/ipfs/QmPzy9xc3pyQPPZYAfSeda6CfHpGi5cYXQfAmvpGDgdU6S"
+			]
+		}
+	},
+	"version": 1
+}

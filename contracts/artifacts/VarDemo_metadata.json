@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myVar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyVar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Public.sol": "VarDemo"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Public.sol": {
+			"keccak256": "0x96bb93247426337664e1a799e0b2e3642562159902ff4ff7cd56d616ab382d42",
+			"urls": [
+				"bzz-raw://5e0868807a1053c1f2bfff66e7a2e49fff93ef10319508b0c3ad94b5c270d233",
+				"dweb:/ipfs/QmQjVMkUQb32YK4NMqLBoYYsHiWjeP2h6JKM4puvsbHQLh"
+			]
+		}
+	},
+	"version": 1
+}

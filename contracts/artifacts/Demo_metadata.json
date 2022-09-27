@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo.sol": "Demo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo.sol": {
+			"keccak256": "0xe4639991da35b0029af10ece8a67592e962d8eaa0782ff58740b83c7f049c79b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://939a5b33073f5e9420cc37624480b12755bf8884148a99a35a5b350f6b2e3dd0",
+				"dweb:/ipfs/QmSBf2DCB4RjA2TcPDx4UTwuxqCFsA1h365p5HncYPuYbU"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "crit",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OverFlow1.sol": "Overflow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OverFlow1.sol": {
+			"keccak256": "0x65797e1a147467a446cf608906de011c97e72d49ecbfb53532ba3caf9cd78007",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://84693e6bb777a6f8a6507f5defad1e8332c9bcbf747e6d316c68b4a756a2b833",
+				"dweb:/ipfs/QmcLR3BafuQeW4BygM6cg1HoTNDBhMSyALH9vndtXc3bQ9"
+			]
+		}
+	},
+	"version": 1
+}
