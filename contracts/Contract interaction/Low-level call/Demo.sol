@@ -24,4 +24,6 @@ contract Demo {
   fallback() external payable {
     payments[msg.sender] = msg.value;
   }
+
+  receive() external payable {}
 }

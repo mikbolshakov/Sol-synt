@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_demo",
+						"type": "address"
+					}
+				],
+				"name": "callFakeFunction",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_demo",
+						"type": "address"
+					}
+				],
+				"name": "callGetName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_demo",
+						"type": "address"
+					}
+				],
+				"name": "callReceiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_demo",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newAge",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnedData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnedName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract interaction/Low-level call/Facilitator.sol": "Facilitator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract interaction/Low-level call/Facilitator.sol": {
+			"keccak256": "0x57ffe06331e51e05a7cd814276f844844d6d7fe75429c9a2596a7269d53b0c5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://372e70c44f7f439ef08d8a1e51a92ad7f7cd18a7ac1642820dfb4286934d520d",
+				"dweb:/ipfs/QmU1pKiNq9hagS9RkF6j9dowGs7iDmscTi9aiLN7AWwLBd"
+			]
+		}
+	},
+	"version": 1
+}
